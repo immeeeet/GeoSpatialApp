@@ -19,3 +19,16 @@ Thumbs.db
 
 # Data outputs
 *.parquet
+
+# Datasets (large files — don't commit)
+*.tif
+*.pbf
+*.pkl
+datasets/training_data.csv
+datasets/GHS_POP_*/
+datasets/VIIRS*/
+datasets/gadm41_*/
+
+# ML artifacts
+backend/ml_engine/models/best_model.pkl
+backend/ml_engine/models/best_model_v2.pkl
